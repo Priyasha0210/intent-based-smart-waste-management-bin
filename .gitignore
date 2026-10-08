@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+.idea/
+.vscode/
+
+# Local ML artifacts / datasets
+models/*.keras
+models/*.h5
+models/*.pkl
+models/*.joblib
+dataset/**/*.npy
